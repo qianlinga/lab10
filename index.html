@@ -12,16 +12,25 @@
 					text-decoration: underline;}        
 		ul		{font-family:monospace ;
 				font-size: 12pt;
-				color: darkblue;}		
+				color: darkblue;}
+	span{
+		color: blue;
+		border: 1px solid black;
+	}
+	.extra span{
+		color: inherit;
+
+	}	
 	</style>
 	<title></title>
 </head>
 <body>
 <h1>Deitel & Associates, Inc.</h1>
-<li><em>Deitel & Associates, Inc.</em> is an authoring and corporate training organization specializing in programming languages.</li>
+<li><em>Deitel & Associates, Inc.</em> is an authoring and corporate<span> training organization</span> specializing in programming languages.</li>
 <p>
 	<h1>Clients</h1>
-	<ul>The company's clients include many</ul>Fortune 1000 companies,<ul>branches of the millitary and business organizations.</ul>
+	<div class="extra" style="color: maroon;">
+	<ul>The company's clients include many</ul>Fortune 1000 companies,<ul>branches of the<span> millitary</span> and business organizations.</ul>
 </p>
 </body>
 </html>
